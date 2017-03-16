@@ -1,0 +1,10 @@
+<div class="swiper-container" id="mySwp">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="/images/image01.jpg"/></div>
+		<div class="swiper-slide"><img src="/images/image02.jpg"/></div>
+		<div class="swiper-slide"><img src="/images/image03.jpg"/></div>
+		<div class="swiper-slide" id="slide4">
+			<img src="/images/image04.jpg"/>
+		</div>
+	</div>
+</div>

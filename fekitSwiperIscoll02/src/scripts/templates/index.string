@@ -1,0 +1,36 @@
+<header class="header">	
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<span>已结束</span>
+			</div>
+			<div class="swiper-slide">
+				<span class="active">11月19号</span>
+			</div>
+			<div class="swiper-slide">
+				<span>11月20号</span>
+			</div>
+			<div class="swiper-slide">
+				<span>11月21号</span>
+			</div>	
+			<div class="swiper-slide">
+				<span>11月22号</span>
+			</div>	
+			<div class="swiper-slide">
+				<span>11月23号</span>
+			</div>	
+		</div>		 
+	</div>
+</header>
+<div class="times">
+		<p>距离开拍结束</p>
+		<p class="LimitTime">12</p>
+</div>
+<section class="section">
+	<div id="wrapper">
+		
+	</div>
+</section>
+<footer>
+	
+</footer>

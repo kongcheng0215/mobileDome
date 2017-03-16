@@ -1,0 +1,85 @@
+<div id="scroller">
+	<div id="downTag" style="height: 40px;width:100%;background-color: #f3f3f3;text-align: center; line-height: 40px;">
+		下拉
+	</div>
+	<div class="list">
+		<dl>
+			<dt>
+				<img src="/images/5.jpg" alt="">
+			</dt>
+			<dd>
+				<h3>第一首</h3>
+				<p>等下完这场雨</p>
+				<div class="listCon">
+					<span>歌手：</span>
+					<p>后弦</p>
+				</div>
+				<div class="listCon">
+					<span>歌词：</span>
+					<p>如果可以，别下完这场雨放慢朝夕，拾与你的点滴</p>
+				</div>
+				<i></i>
+				<i></i>
+			</dd>
+		</dl>
+		<dl>
+			<dt>
+				<img src="/images/5jpg" alt="">
+			</dt>
+			<dd>
+				<h3>第一首</h3>
+				<p>等下完这场雨</p>
+				<div class="listCon">
+					<span>歌手：</span>
+					<p>后弦</span>
+				</div>
+				<div class="listCon">
+					<span>歌词：</span>
+					<p>如果可以，别下完这场雨放慢朝夕，拾与你的点滴</p>
+				</div>
+				<i></i>
+				<i></i>
+			</dd>
+		</dl>
+		<dl>
+			<dt>
+				<img src="/images/5.jpg" alt="">
+			</dt>
+			<dd>
+				<h3>第一首</h3>
+				<p>等下完这场雨</p>
+				<div class="listCon">
+					<span>歌手：</span>
+					<p>后弦</span>
+				</div>
+				<div class="listCon">
+					<span>歌词：</span>
+					<p>如果可以，别下完这场雨放慢朝夕，拾与你的点滴</p>
+				</div>
+				<i></i>
+				<i></i>
+			</dd>
+		</dl>	
+		<dl>
+			<dt>
+				<img src="/images/5.jpg" alt="">
+			</dt>
+			<dd>
+				<h3>第一首</h3>
+				<p>等下完这场雨</p>
+				<div class="listCon">
+					<span>歌手：</span>
+					<p>后弦</span>
+				</div>
+				<div class="listCon">
+					<span>歌词：</span>
+					<p>如果可以，别下完这场雨放慢朝夕，拾与你的点滴</p>
+				</div>
+				<i></i>
+				<i></i>
+			</dd>
+		</dl>	
+	</div>
+	<div id="upTag" style="height: 40px;width:100%;background-color: #f3f3f3;text-align: center; line-height: 40px;margin-bottom:-40px">上拉
+	</div>
+</div>

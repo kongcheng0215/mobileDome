@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('/img/iconfont/iconfont.eot');
+  src: url('/img/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('/img/iconfont/iconfont.woff') format('woff'),
+  url('/img/iconfont/iconfont.ttf') format('truetype'),
+  url('/img/iconfont/iconfont.svg#iconfont') format('svg');
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	font-family: "微软雅黑";
+	width: 100%;
+	height: 100%;
+}
+html{
+	font-size:31.25vw;
+	-ms-touch-action: none;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	background:#fdfdfd;	
+	height: 0.35rem;
+}
+.header .swiper-slide{
+	height: 0.35rem;
+	font-size: 0.12rem;	
+	text-align: center;
+	font-weight: 900;
+}
+.swiper-slide span{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 0.35rem;
+	line-height:0.35rem;
+	color: #a64c41;
+}
+.header .swiper-slide .active{
+	border-bottom:0.03rem solid pink;
+	color:pink;
+}
+.times{
+	width:100%;
+	height:0.59rem;
+	background:#f1efe2;
+	font-size:0.12rem;
+	font-weight:900;
+	display:flex;
+	flex-direction:column;
+	color:#5b781c;
+}
+.times p{
+	display:flex;
+	flex:1;
+	justify-content:center; 
+	align-items:center;
+}
+section{
+	flex:1;
+	font-size:0.12rem;
+	position:relative;
+}
+#wrapper{
+	position:absolute;
+	z-index:1;
+	top:0;
+	bottom:-0.48rem;
+	left:0;
+	width:100%;
+	overflow:hidden;
+	background:#386baa;
+}
+#scroller{
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color:#000;
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+#scroller .list {
+	width:100%;
+	height:1.2rem;
+	height:100%;
+}
+#scroller .list dl{
+	height:1.2rem;
+	padding:0.1rem;
+	border-bottom:1px solid pink;
+}
+#scroller .list dl dt{
+	width:1.2rem;
+	height:1.2rem;
+	float:left;
+}
+#scroller .list dl dt img{
+	display:block;
+	width:1.2rem;
+	height:1.2rem;
+}
+#scroller .list dl dd{
+	width:1.6rem;
+	float:right;
+}
+#scroller .list dl dd h3{
+	line-height:0.22rem;
+}
+#scroller .list dl dd>p{
+	line-height:0.2rem;
+}
+#scroller .list dl dd .listCon{
+	clear:both;
+}
+#scroller .list dl dd .listCon span{
+	float:left;
+}
+#scroller .list dl dd .listCon p{
+	float:left;
+	width:1.2rem;
+}

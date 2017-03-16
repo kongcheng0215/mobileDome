@@ -1,0 +1,78 @@
+<div class="m-container">
+	<header>
+		<ul>
+			<li class="iconfont">&#xe745;</li>
+			<li>
+				<span class="active">热爱</span>
+				<span>生活</span>
+			</li>
+			<li class="iconfont">&#xe684;</li>
+		</ul>
+	</header>
+	<nav>
+		<ul>
+			<li class="active">工作</li>
+			<li>学习</li>
+			<li>旅游</li>
+		</ul>
+	</nav>
+	<section id="main-scroll">
+		<ul>
+			<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+			<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+				<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+				<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+				<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+				<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+				<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+				<li>
+				<img src="/images/02.gif" />
+				<b>一个人 : 我很享受一个人待在安静的地方，做喜欢做的事。一个人又怎样，一个人也可以很好。</b>
+			</li>
+		</ul>
+	</section>
+	<footer>
+		<ul class="iconfont">
+			<li class="active">
+				<i>&#xe6bb;</i>
+				<b>首页</b>
+			</li>
+			<li>
+				<i>&#xe65c;</i>
+				<b>发现</b>
+			</li>
+			<li>
+				<i>&#xe664;</i>
+			</li>
+			<li>
+				<i>&#xe735;</i>
+				<b>我的</b>
+			</li>
+			<li>
+				<i>&#xe603;</i>
+				<b>退出</b>
+			</li>
+		</ul>
+	</footer>
+</div>

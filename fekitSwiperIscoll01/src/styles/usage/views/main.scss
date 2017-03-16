@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+
+/*reset*/
+html,body{
+	height: 100%;
+	width: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+html{
+	background: #fafafa;
+	color: #212121;
+}
+body{
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+}
+ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,figure,form,fieldset,legend,input,textarea,button,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+}
+ul,ol,menu{
+	list-style: none;
+}
+address,cite,dfn,em,i,optgroup,strong,var{
+	font-style: normal;
+}
+article,aside,details,figcaption,footer,header,menu,nav,section,summary,figure{
+	display: block;
+}
+
+@font-face{
+	font-family: 'iconfont';
+	src:url("../../images/iconfont/iconfont.woff")format("woff"),
+		url("../../images/iconfont/iconfont.ttf")format('truetype');
+}
+@font-face{
+	font-family: 'iconfont';
+	src:url("../../images/iconfont/iconfont-menu.woff")format("woff"),
+		url("../../images/iconfont/iconfont-menu.ttf")format('truetype');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+
+/*index style*/
+.m-container{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.m-container header{
+	height: 44px;
+	background: #3a4813;
+}
+.m-container header ul{
+	height: 100%;
+	display: flex;
+}
+.m-container header ul li:not(:nth-child(2)){
+	height: 100%;
+	width: 44px;
+	text-align: center;
+	line-height: 44px;
+	font-size: 24px;
+	color:#95937a;
+}
+.m-container header ul li:nth-child(2){
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.m-container header ul li:nth-child(2) span{
+	width: 59px;
+	height: 25px;
+	color: #8f6a61;
+	background-color: #95937a;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+}
+.m-container header ul li:nth-child(2) span:first-child{
+	border-radius: 10px 0 0 10px;
+}
+.m-container header ul li:nth-child(2) span:last-child{
+	border-radius: 0px 10px 10px 0px;
+}
+.m-container header ul li:nth-child(2) span.active{
+	color:#cef8e7;
+	background-color: #7f96a6;
+}
+/*nav*/
+.m-container nav{
+	height: 35px;
+	background-color: #efd9c4;
+	color:#fff;
+}
+.m-container nav ul{
+	height: 100%;
+	display: flex;
+}
+.m-container nav ul li{
+	flex: 1;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: 1px solid #bfa16b;
+}
+//张慧琴
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	.m-container nav ul li{
+		border-bottom:0.5px solid #bfa16b;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2.5), only screen and (min-device-pixel-ratio: 2.5) {
+	.m-container nav ul li{
+		border-bottom:0.3333px solid #bfa16b;
+	}
+}
+
+.m-container nav ul li.active{
+	border-bottom: 2px solid #4c5b24;
+	color: pink;
+}
+
+
+/*section*/
+
+.m-container section{
+	flex: 1;
+	background: #fff;
+	padding-bottom: 4px;
+	overflow:scroll;
+}
+.m-container section ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.m-container section ul li{
+	width: 50%;
+	margin-top: 4px;
+	padding: 0 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.m-container section ul li img{
+	width: 100%;
+}
+.m-container section ul li b{
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 321px) {
+	.m-container section ul li{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 322px) and (max-width: 375px){
+	.m-container section ul li{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 376px){
+	.m-container section ul li{
+		font-size: 16px;
+	}
+}
+
+
+/*footer*/
+.m-container footer{
+	height: 44px;
+	background-color:#fb9d93;
+}
+.m-container footer ul{
+	height: 100%;
+	display: flex;
+	border-top: 1px solid #000;
+}
+.m-container footer ul li{
+	flex:1;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color: #fbf9ed;;
+}
+.m-container footer ul li i{
+	font-size: 24px;
+	line-height: 24px;
+}
+.m-container footer ul li b{
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.m-container footer ul li.active{
+	color:#3a4813;
+}
+.m-container footer ul li:nth-child(3){
+	position: relative;
+}
+.m-container footer ul li:nth-child(3) i{
+	opacity:0.5;
+	font-size:34px;
+	position: absolute;
+	top:-6px;
+	left:50%;
+	transform:translate(-50%);
+	width: 50px;
+	height: 49px;
+	border-radius:50%;
+	border: 1px solid #6d6d6d;
+	line-height: 44px;
+	background:#533c12;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
